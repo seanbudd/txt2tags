@@ -1256,7 +1256,7 @@ def getTags(config):
             "urlMark": "[\a](\a)",
             "email": "<\a>",
             "emailMark": "[\a](mailto:\a)",
-            "anchor": None,
+            "anchor": "{#\a}",
             # Image markup
             "img": "![](\a)",
             "imgAlignLeft": None,
